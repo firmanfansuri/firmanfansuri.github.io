@@ -1,0 +1,142 @@
+footer {
+	text-align: center;
+	background-color: #232224;
+	padding: 20px 15px;
+	border-top: 1px solid #ccc;
+	margin-bottom: -70px;
+}
+
+footer .logo {
+	max-width: 70px;
+	height: auto;
+	margin: auto;
+	margin-top: -70px;
+	margin-bottom: 10px;
+}
+
+footer .detail {
+	position: relative;
+}
+
+footer .detail span {
+	display: block;
+	color: #e8e3e3;
+	font-size: 100%;
+}
+
+footer .detail::before {
+	margin: auto;
+	content: '';
+	position: absolute;
+	bottom: -10px;
+	-ms-transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	height: 1px;
+	width: 500px;
+	background: #ccc;
+}
+
+footer .copyright {
+	margin-top: 40px;
+}
+
+footer .copyright span {
+	display: block;
+	color: #e8e3e3;
+	font-size: 100%;
+}
+
+footer .copyright a {
+	color: #0b2cbf;
+	font-weight: 500;
+}
+
+/* Tombol Kembali Keatas */
+html {scroll-behavior:smooth;}
+.kembali-keatas {width:50px; height:50px; position:fixed; bottom:50px; right: 50px; z-index:99; cursor:pointer; border-radius:100px; transition:all .5s; background:#94b598 url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M7.41,15.41L12,10.83L16.59,15.41L18,14L12,8L6,14L7.41,15.41Z' fill='%23fff'/%3E%3C/svg%3E") no-repeat center center;}
+.kembali-keatas:hover {background:#32343b url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M7.41,15.41L12,10.83L16.59,15.41L18,14L12,8L6,14L7.41,15.41Z' fill='%23fff'/%3E%3C/svg%3E") no-repeat center center;}
+
+/* Halaman error 404 */
+#notfound {
+	position: relative;
+	height: 100vh;
+}
+
+#notfound .notfound {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+.notfound {
+	max-width: 520px;
+	width: 100%;
+	text-align: center;
+	line-height: 1.4;
+}
+
+.notfound .notfound-404 {
+	height: 190px;
+}
+
+.notfound .notfound-404 .h1 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 146px;
+	font-weight: 700;
+	margin: 0px;
+	color: #232323;
+}
+
+.notfound .notfound-404 .h1>span {
+	display: inline-block;
+	width: 120px;
+	height: 120px;
+	background-image: url('../images/emoji.png');
+	background-size: cover;
+	-webkit-transform: scale(1.4);
+	-ms-transform: scale(1.4);
+	transform: scale(1.4);
+	z-index: -1;
+}
+
+.notfound .h2 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 22px;
+	font-weight: 700;
+	margin: 0;
+	text-transform: uppercase;
+	color: #232323;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.notfound p {
+	font-family: 'Montserrat', sans-serif;
+	color: #787878;
+	font-weight: 400;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.notfound a {
+	font-family: 'Montserrat', sans-serif;
+	display: inline-block;
+	padding: 12px 30px;
+	font-weight: 700;
+	background-color: #008080;
+	color: #fff;
+	border-radius: 40px;
+	text-decoration: none;
+	-webkit-transition: 0.2s all;
+	transition: 0.2s all;
+}
+
+.notfound a:hover {
+	opacity: 0.8;
+}
+
